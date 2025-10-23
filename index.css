@@ -130,4 +130,31 @@ input:focus {
     border-color: var(--accent-color);
     box-shadow: 0 0 0 3px rgba(123, 160, 91, 0.35); }
 
+
+.image-author {
+    position: absolute;
+    bottom: 12px;
+    /* better for readability and stability */
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Shadows Into Light", cursive;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(0, 0, 0, 0.35);
+    /* subtle transparent backdrop */
+    padding: 4px 10px;
+    border-radius: 12px;
+    backdrop-filter: blur(2px);
+    /* slight glassy effect */
+    letter-spacing: 0.5px;
+    text-align: center;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    }
+    
+.image-author:hover {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.55);
+    transform: translateX(-50%) scale(1.03);
+    }
     
