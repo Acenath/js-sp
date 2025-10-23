@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Creation</title>
+</head>
+<body>
+    <div class="image">
+        <img src="./images/mariola-grobelska-wwgEXC3Q4d0-unsplash.jpg" alt="Kivi image" >
+        <!-- Cartoon character from a Turkish tv series called "Kral Şakir" -->
+        <!-- <img src="./images/Necati.png" alt="Fil Necati from Kral Şakir"> -->
+        
+    </div>
+    <div class="form">
+        <div class="header">
+            <p>Another day another boring sign-up page!!! I really need to get a job.
+                Everyday I get more and more anxiety and stress. I can't take it anymore.
+            </p>
+            <p>I want a decent job</p>
+        </div>
+        
+        <div class="form-account">
+            <form action="#" method="post">
+                <fieldset>
+                    <label for="first_name">First Name</label>
+                    <input id="first_name" type="text" name="first_name" required placeholder="Firstname Secondname">
+        
+                    <label for="last_name">Last Name</label>
+                    <input id="last_name" type="text" name="last_name" required placeholder="Familyname">
+        
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" required
+                        placeholder="something@hotmail.com - something@gmail.com ...">
+        
+                    <!-- Didn't think much on phone number. Just assumed your are based in Turkey -->
+                    <label for="tel">Phone Number</label>
+                    <input id="tel" type="tel" name="tel" required placeholder="123 456 789" minlength="10" maxlength="10">
+        
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="last_name" required minlength="5" maxlength="20">
+        
+                    <label for="confirm_password">Confirm Password</label>
+                    <input id="confirm_password" type="password" name="confirm_password" required minlength="5" maxlength="20">
+        
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">log in</a></p>
+                </fieldset>
+        
+            </form>
+            </div>
+    </div>
+    
+    
+</body>
+</html>
